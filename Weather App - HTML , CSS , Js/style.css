@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #9BCDD2;
+    font-family: 'Asap', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+
+main{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
+
+.row{
+    height: 170px;
+    width: 800px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#row-1{
+    margin: 20px 0px 0px 0px;
+}
+#search{
+    font-size: 17px;
+    font-weight: 300;
+    border-radius: 21px;
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 5px gray;
+}
+
+#form{
+    width: 230px;
+}
+#cards{
+    height: 550px;
+    width: 100%;
+    display: flex;
+    padding: 30px;
+
+}
+
+#card-1{
+    
+}
+#card-2{
+    
+}
+#card-3{
+   
+}
+#card-4{
+    
+
+}
+
+.card{
+    height: 305px;
+    width: 450px;
+    padding: 50px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(192, 230, 230);
+    border-radius: 10px;
+
+
+
+}
+
+#temp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    margin: 5px 0px 5px 0px ;
+}
+
+.Values{
+    padding: 120px 0px 0px 0px;
+}
+
+.search {
+    width: 100%;
+    max-width: 220px;
+    height: 45px;
+    padding: 12px;
+    border-radius: 12px;
+    border: 1.5px solid lightgrey;
+    outline: none;
+    transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+    box-shadow: 0px 0px 20px -18px;
+  }
+  
+  .search:hover {
+    border: 2px solid lightgrey;
+    box-shadow: 0px 0px 20px -17px;
+  }
+  
+  .search:active {
+    transform: scale(0.95);
+  }
+  
+  .search:focus {
+    border: 2px solid grey;
+  }
